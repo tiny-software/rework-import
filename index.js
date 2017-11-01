@@ -122,7 +122,7 @@ function exists(file, src, opts) {
 
 function read(file, opts) {
 	var encoding = opts.encoding || 'utf8';
-	var data = opts.transform(fs.readFileSync(file, encoding));
+	var data = opts.transform(fs.readFileSync(file, encoding), file);
 	return css.parse(data, {source: file}).stylesheet;
 }
 
