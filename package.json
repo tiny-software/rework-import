@@ -34,6 +34,6 @@
     "ava": "^0.0.4",
     "css-whitespace": "^1.1.0",
     "normalize-newline": "^1.0.2",
-    "rework": "^1.0.0"
+    "rework": "tiny-software/rework"
   }
 }
